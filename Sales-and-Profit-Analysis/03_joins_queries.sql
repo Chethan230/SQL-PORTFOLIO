@@ -1,0 +1,23 @@
+-- Display the table with the following attributes such as date, productID, product_type, product, sales, profit, state, area_code.
+SELECT F.DATE,F.PRODUCTID,P.PRODUCT_TYPE,P.PRODUCT,F.SALES,F.PROFIT,L.STATE,L.AREA_CODE
+FROM FACT F
+JOIN LOCATION L
+ON F.AREA_CODE=L.AREA_CODE
+JOIN PRODUCT P
+ON P.PRODUCTID=F.PRODUCTID
+
+-- Find the state wise profit and sales along with the productname.
+SELECT L.STATE,P.PRODUCT,SUM(F.PROFIT) AS PROFIT,SUM(F.SALES) AS SALES
+FROM FACT F
+JOIN LOCATION L
+ON F.AREA_CODE=L.AREA_CODE
+JOIN PRODUCT P
+ON P.PRODUCTID=F.PRODUCTID
+GROUP BY STATE,PRODUCT
+
+-- Find the maximum profit along with the productid and producttype.
+SELECT TOP 1 P.PRODUCTID,P.PRODUCT_TYPE,F.PROFIT
+FROM FACT F
+JOIN PRODUCT P
+ON P.PRODUCTID=F.PRODUCTID
+ORDER BY PROFIT DESC
