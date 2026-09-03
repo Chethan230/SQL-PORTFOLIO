@@ -65,4 +65,4 @@ Through this project, I practiced:
 
 ## 📊 Business Questions
 
-This project contains 11 SQL tasks focused on analyzing Bangalore restaurant data and extracting meaningful insights.
+This project contains 10 SQL tasks focused on analyzing Bangalore restaurant data and extracting meaningful insights.
