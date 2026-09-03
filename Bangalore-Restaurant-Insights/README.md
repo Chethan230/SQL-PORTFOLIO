@@ -2,9 +2,7 @@
 
 ## 📌 Project Overview
 
-**Bangalore Restaurant Insights** is a SQL-based data analysis project focused on exploring and analyzing **Bangalore restaurant data from Zomato** using Microsoft SQL Server.
-
-The project demonstrates practical SQL concepts and techniques to extract meaningful insights from restaurant data, including restaurant ratings, cuisines, costs, online ordering, table booking, restaurant types, and locations.
+The project demonstrates practical SQL concepts and techniques to extract meaningful insights from Bangalore restaurant data, including restaurant ratings, cuisines, costs, online ordering, table booking, restaurant types, and locations.
 
 The objective is to analyze Bangalore's restaurant landscape while applying advanced SQL programming and data analysis concepts.
 
