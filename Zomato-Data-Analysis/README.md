@@ -44,15 +44,6 @@ The project uses a Zomato restaurant dataset containing information such as:
 10. WHILE Loop
 11. Subqueries
 
-📁 Project Structure
-
-ZOMATO-DATA-ANALYSIS/
-│
-├── Zomato.csv
-├── Zomato.sql
-├── README.md
-└── Result/
-
 ▶️ How to Run
 
 1. Open SQL Server Management Studio (SSMS).
@@ -84,5 +75,7 @@ ROLLUP
 WHILE loops
 
 👨‍💻 Author
+
 Chethan D
+
 This project was created as part of my SQL and Data Analysis learning journey.
