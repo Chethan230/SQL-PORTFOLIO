@@ -64,3 +64,7 @@ Through this project, I practiced:
 * Mathematical and date functions
 * ROLLUP
 * WHILE loops
+
+## 📊 Business Questions
+
+This project contains 11 SQL tasks focused on analyzing Bangalore restaurant data and extracting meaningful insights.
